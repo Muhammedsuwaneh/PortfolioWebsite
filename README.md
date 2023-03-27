@@ -2,7 +2,7 @@
 
 ## About Project
 
-This is a static Portfolio website develop using ReactJS+MaterialUI. The site 
+This is a static Portfolio website developed using ReactJS+MaterialUI. The site 
 gives some general info about me, my experience as a Software Engineer and the projects I worked on.
 [explore site](https://muhammedsuwaneh-ce135.firebaseapp.com/)
 
@@ -12,7 +12,7 @@ The project runs using npm packages. To run the project follow the instructions 
 
 ## Install Node packages
 
-You need NodeJS to run the command below. NodeJS can be downloaded from the [here](https://nodejs.org/en/)
+You need NodeJS to run the command below. [Download NodeJS](https://nodejs.org/en/)
 
 ```bash
 npm install 
