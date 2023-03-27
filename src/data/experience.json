@@ -1,0 +1,6 @@
+{
+    "experience": [
+        { "id": "1", "company": "InSIST Global Gambia LTD", "logo": "https://www.dropbox.com/s/sltdsxrk7or6n9y/insist.jpg?raw=1", "role": "Software Engineer Intern", "link": "https://insistglobal.com/", "duration": "Jul 2022 - Sep 2022", "description": "Responsible for the design of the admin interface of an E-Learning Platform and the development of the Admin (client side) of an E-Shop Web application using the latest frontend web technologies" },
+        { "id": "2", "company": "Progim", "logo": "https://www.dropbox.com/s/vn3dj6lmd5fzi5m/progim.jpg?raw=1", "role": "Software Engineer Intern", "link": "https://progimyalin.com.tr/", "duration": "Jan 2022 - Feb 2022", "description": "With some guidance from the senior engineer and using .Net technologies, I was able to develop the clone of a medical equipment e-commerce website with an added admin interface" }
+    ]
+}
