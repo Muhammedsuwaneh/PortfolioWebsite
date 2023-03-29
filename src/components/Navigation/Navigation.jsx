@@ -71,11 +71,11 @@ function Navigation(props) {
             aria-label="open drawer"
             edge="start"
             onClick={handleDrawerToggle}
-            sx={{ mr: 2, display: { sm: 'none' }, margin: "0 1rem" }}
+            sx={{ mr: 2, display: { sm: 'block', md: 'block', xs: 'block', lg: 'none'}, margin: "0 1rem" }}
           >
           <MenuIcon />
           </IconButton>
-          <Grid item xs={4} sx={{ paddingTop: "1rem", flexGrow: 1, display: { xs: 'none', sm: 'block' }}}>
+          <Grid item xs={4} sx={{ paddingTop: "1rem", flexGrow: 1, display: { xs: 'none', sm: 'none', md: 'none', lg: 'block' }}}>
             <Link href="https://www.instagram.com/muhammed_suwaneh/" target="_blank" underline="none" sx={{ padding: "0 1rem", color: "#1D1F21"}}>
                 <InstagramIcon />
             </Link>
@@ -86,19 +86,14 @@ function Navigation(props) {
                 <GitHubIcon />
             </Link>
           </Grid>
-          <Grid item xs={4} sx={{ textAlign: { sm: 'center'}, display: { xs: 'none', sm: 'block' }}}>
+          <Grid item xs={4} sx={{ textAlign: { lg: 'center', sm: 'right', md: 'right', xs: 'right'}, 
+          margin: { xs: '0 0 0 40%', sm: '0 0 0 40%', md: '0 0 0 50%', lg: '0'}}}>
              <Link href="/" underline="none" 
              sx={{ textTransform: "uppercase", fontSize: "2rem", color: "#FAB93C", fontWeight: "bold" }}>
                  MS
              </Link>
           </Grid>
-          <Grid item xs={9} sx={{ textAlign: "right", display: { sm: 'none', xs: 'block' }}}>
-             <Link href="/" underline="none" 
-             sx={{ textTransform: "uppercase", fontSize: "2rem", color: "#FAB93C", fontWeight: "bold" }}>
-                 MS
-             </Link>
-          </Grid>
-          <Grid item xs={4} sx={{ paddingTop: "1rem", display: { xs: 'none', sm: 'flex' }}}>
+          <Grid item xs={4} sx={{ paddingTop: "1rem",  display: { xs: 'none', sm: 'none', md: 'none', lg: 'block' }}}>
            {navItems.map(link => {
               return (
                 <Link href={`${(link === "Home") ? "/": "#"+link.toLowerCase()}`} underline="none" key={link} sx={{ padding: "0 1rem", color: "#1D1F21"}}>
@@ -119,7 +114,7 @@ function Navigation(props) {
             keepMounted: true, // Better open performance on mobile.
           }}
           sx={{
-            display: { xs: 'block', sm: 'none' },
+            display: { sm: 'block', xs: 'block', lg: 'none', md: 'block' },
             '& .MuiDrawer-paper': { boxSizing: 'border-box', width: drawerWidth },
           }}
         >

@@ -16,10 +16,10 @@ export default function About() {
   return (
    <div id="about">
     <AboutContainer container id='#about'>
-        <Grid xs={12} sm={4} sx={{ alignContent: { sm: "right", xs: "center" }, justifyContent: "center", margin: "auto", display: "flex" }}>
+        <Grid xs={12} sm={12} md={12} lg={4} sx={{ alignContent: { lg: "right", sm: "center", md: "center", xs: "center" }, justifyContent: "center", margin: "auto", display: "flex" }}>
             <img src={avatar} alt="avatar" style={{ width: "25rem", height: "25rem", margin: "auto" }}/> 
         </Grid>
-        <Grid xs={12} sm={7} sx={{ padding: { sm: "3rem", xs: "1rem" }, textAlign: { sm: "left", xs: "center"} }}>
+        <Grid xs={12} sm={12} md={12} lg={7} sx={{ padding: { sm: "3rem", xs: "1rem" }, textAlign: { lg: "left", xs: "center", sm: "center", md: "center"} }}>
             <Typography variant="p">
                 Hi There, I am
             </Typography>
