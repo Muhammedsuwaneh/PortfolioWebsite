@@ -4,7 +4,6 @@ import AppBar from '@mui/material/AppBar';
 import Link from '@mui/material/Link';
 import Box from '@mui/material/Box';
 import CssBaseline from '@mui/material/CssBaseline';
-import Divider from '@mui/material/Divider';
 import InstagramIcon from '@mui/icons-material/Instagram';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import GitHubIcon from '@mui/icons-material/GitHub';
@@ -17,7 +16,6 @@ const NavigationTheme = styled(Grid)(({ theme }) => ({
     background: "#fff",
     borderBottom: "1px solid #eee",
     width: "100%",
-    borderBottom: "1px solid #333",
     padding: "1rem",
     color: "#000",
 }));

@@ -1,5 +1,5 @@
 import React from 'react'
-import { Box, Paper, styled, Typography, Divider, Stack, Chip, Link } from "@mui/material"
+import { Box, styled, Typography, Divider, Stack, Chip, Link } from "@mui/material"
 import LinkIcon from "@mui/icons-material/Link"
 
 const ProjectContainer = styled(Box)(() => ({

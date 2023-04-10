@@ -1,5 +1,5 @@
 import React from 'react'
-import { Stack, Box, styled, Divider, Chip } from "@mui/material"
+import { Stack, Divider, Chip } from "@mui/material"
 
 import Project from './Project';
 import selectedProjects from "../../data/projects.json";
