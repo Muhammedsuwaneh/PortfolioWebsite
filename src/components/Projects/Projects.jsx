@@ -11,11 +11,11 @@ export default function Projects() {
 
   return (
     <>
-      <Box sx={{ background: "#F4F8FA", textAlign: "center", marginTop: "5rem", padding: "2rem", height: "20rem", alignItems: "center", justifyContent: "center", 
+      <Box sx={{ background: "#f4f4f4", textAlign: "center", marginTop: "5rem", padding: "2rem", height: "20rem", alignItems: "center", justifyContent: "center", 
       display: "flex", flexDirection: "column", margin: "auto"}}>
-           <DataArrayIcon sx={{ fontSize: "5rem", margin: "1rem 0", color: "#FAB93C"}} />
-          <Typography fontSize="2rem" color="#333" fontWeight="bold">Projects</Typography>
-      </Box>
+           <DataArrayIcon sx={{ fontSize: "5rem", margin: "1rem 0", color: "#333"}} />
+          <Typography fontSize="2rem" color="#333">Projects</Typography>
+        </Box>
       <Stack id="projects" sx={{ padding: {lg: "10rem", md: "5rem", sm: "1rem", xs: "1rem"}}}>
           {projects.map((project) => {
               return <Project {...project} key={project.id} />

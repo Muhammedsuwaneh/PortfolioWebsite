@@ -2,7 +2,7 @@ import React from 'react'
 import { Box, styled, Typography, Divider } from "@mui/material"
 
 const FooterContainer = styled(Box)(() => ({
-    background: "#E5E5E7",
+    background: "#F4F4F4",
     display:"flex",
     justifyContent: "space-around",
     padding: "2rem",

@@ -23,10 +23,10 @@ export default function Experience() {
 
   return (
     <ExperienceContainer id="experience" marginBottom="3rem">
-         <Box sx={{ background: "#F4F8FA", textAlign: "center", marginTop: "5rem", padding: "2rem", height: "20rem", alignItems: "center", justifyContent: "center", 
+         <Box sx={{ background: "#f4f4f4", textAlign: "center", marginTop: "5rem", padding: "2rem", height: "20rem", alignItems: "center", justifyContent: "center", 
       display: "flex", flexDirection: "column", margin: "auto"}}>
-           <WorkIcon sx={{ fontSize: "5rem", margin: "1rem 0", color: "#FAB93C"}} />
-          <Typography fontSize="2rem" color="#333" fontWeight="bold">Experience</Typography>
+           <WorkIcon sx={{ fontSize: "5rem", margin: "1rem 0", color: "#333"}} />
+          <Typography fontSize="2rem" color="#333">Experience</Typography>
         </Box>
         <CompaniesContainer sx={{ paadding: { lg: "10rem"}, 
             gridTemplateColumns: { lg: "repeat(2, 1fr)", xs: "1fr", sm: "1fr", md: "1f" }, margin: { xs: "0", sm: "0", md: "0", lg: "2rem 5rem"}, justifyContent: { xs: "unset"} }}>
