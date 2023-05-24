@@ -13,9 +13,9 @@ const ProjectContainer = styled(Box)(() => ({
 export default function Project({ title, image, description, source, stack }) {
   return (
     <ProjectContainer sx={{ textAlign: { xs: "center"}}}>
-        <Divider sx={{ padding: "1rem", margin: "2rem"}}>
-            <Chip label={title} />
-        </Divider>
+        <Typography sx={{ padding: "1rem", margin: "2rem", textTransform: "uppercase"}}>
+            {title}
+        </Typography>
         <img src={image} alt={title} sx={{ width: { xs: "200px", sm: "200px"} }}/>
         <Stack sx={{ padding: "2rem", display: "flex", flexDirection: "column", justifyContent: "center", alignItems: "center"}}>
             <Typography variant="p" sx={{ fontSize: "1.2rem", lineHeight: "2rem"}}>

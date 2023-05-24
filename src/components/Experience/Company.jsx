@@ -13,10 +13,10 @@ const CardContainer = styled(Box)(({ theme }) => ({
 
 export default function Company({ company, logo, role, duration, description, link }) {
   return (
-     <CardContainer sx={{ margin: { sm: "1rem", xs: "1rem 0"} }}>
-            <Divider textAlign="left" sx={{ textTransform: "uppercase", fontWeight: "bold"}}>
+     <CardContainer sx={{ margin: { sm: "1rem", xs: "1rem 0"}, border: "1px solid #eee" }}>
+            {/* <Divider textAlign="left" sx={{ textTransform: "uppercase", fontWeight: "bold"}}>
                 <img src={logo} style={{ width: "100px", height: "100px"}} alt={company}/>
-            </Divider>
+            </Divider> */}
             <Box sx={{ padding: "0 1rem", marginTop: "1rem"}}>
             <Typography sx={{ color: "#333"}}>
                 {role}
@@ -33,7 +33,7 @@ export default function Company({ company, logo, role, duration, description, li
             </Typography>
             <Divider sx={{ color: "#000", padding: ".5rem 0"}}/>
             <Link href={link} target="_blank" sx={{ textDecoration: "none"}}>
-              site: <LinkIcon />
+              company site: <LinkIcon />
             </Link>
        </Box>
      </CardContainer>

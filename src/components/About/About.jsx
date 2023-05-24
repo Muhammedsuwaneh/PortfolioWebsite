@@ -17,16 +17,13 @@ export default function About() {
    <div id="about">
     <AboutContainer container id='#about'>
         <Grid xs={12} sm={12} md={12} lg={4} sx={{ alignContent: { lg: "right", sm: "center", md: "center", xs: "center" }, justifyContent: "center", margin: "auto", display: "flex" }}>
-            <img src={avatar} alt="avatar" style={{ width: "25rem", height: "25rem", margin: "auto" }}/> 
+            <img src={avatar} alt="avatar" style={{ width: "20rem", height: "20rem", margin: "auto" }}/> 
         </Grid>
-        <Grid xs={12} sm={12} md={12} lg={7} sx={{ padding: { sm: "3rem", xs: "1rem" }, textAlign: { lg: "left", xs: "center", sm: "center", md: "center"} }}>
-            <Typography variant="p">
-                Hi There, I am
-            </Typography>
-            <Typography variant="h2" sx={{ fontSize: { sm: "3rem", xs: "1.5rem"}, fontWeight: "bold", margin: "1.5rem 0"}}>
+        <Grid xs={12} sm={12} md={12} lg={8} sx={{ padding: { sm: "3rem", xs: "1rem" }, textAlign: { lg: "left", xs: "center", sm: "center", md: "center"} }}>
+            <Typography variant="h2" sx={{ fontSize: { sm: "3rem", xs: "1.5rem"}, margin: "1.5rem 0"}}>
                 Muhammed Suwaneh
             </Typography>
-            <Typography sx={{ fontSize: "1.3rem", fontWeight: "bold", color: "#7218DC", margin: "1.5rem 0" }}>
+            <Typography sx={{ fontSize: "1.3rem", color: "#7218DC", margin: "1.5rem 0" }}>
                 Full stack Software Engineer, specialized in designing, developing and deploying both static and dynamic Web applications
             </Typography>
             <Typography sx={{ lineHeight: "2rem"}}>

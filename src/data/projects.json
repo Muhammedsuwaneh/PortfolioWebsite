@@ -14,7 +14,7 @@
             "https://user-images.githubusercontent.com/25181517/117447155-6a868a00-af3d-11eb-9cfe-245df15c9f3f.png"
         ]
         },
-        {   "id": "2", "title": "Portfolio Project", "image": "https://www.dropbox.com/s/2xcsavrt40pl15c/portfolio.png?raw=1", 
+        {   "id": "2", "title": "Portfolio Website Project", "image": "https://www.dropbox.com/s/3wuaobuzugzgy47/portfolio.png?raw=1", 
         "description": "Static Portfilio website developed using ReactJS and MaterialUI. The project gives some general info about me, my experience as a Software Engineer and the projects I worked on.", 
         "source": "https://muhammedsuwaneh-ce135.firebaseapp.com/", 
         "stack": [

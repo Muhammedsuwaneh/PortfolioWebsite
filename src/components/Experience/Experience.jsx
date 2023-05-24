@@ -1,15 +1,15 @@
 import React from 'react'
 
-import { Box, Divider, Chip } from "@mui/material";
+import { Box, Divider, Chip, Typography } from "@mui/material";
 import { styled } from '@mui/material';
 import companies from "../../data/experience.json";
+import WorkIcon from '@mui/icons-material/Work';
 
 import Company from './Company';
 
 const ExperienceContainer = styled(Box)(({ theme}) => ({
-   background: "#E5E5E7",
+   background: "#fff",
    minHeight: "100vh",
-   padding: "3rem",
 }));
 
 const CompaniesContainer = styled(Box)(({ theme}) => ({
@@ -22,11 +22,14 @@ export default function Experience() {
   const { experience } = companies;
 
   return (
-    <ExperienceContainer id="experience" sx={{ padding: { xs: "1rem"}}}>
-         <Divider sx={{ padding: "1rem", textTransform: "uppercase", fontSize: "1.2rem"}}>
-            <Chip label="Experience" />
-        </Divider>
-        <CompaniesContainer sx={{ gridTemplateColumns: { lg: "repeat(2, 1fr)", xs: "1fr", sm: "1fr", md: "1f" }, margin: { xs: "0", sm: "0", md: "0", lg: "2rem auto"}, justifyContent: { xs: "unset"} }}>
+    <ExperienceContainer id="experience" marginBottom="3rem">
+         <Box sx={{ background: "#F4F8FA", textAlign: "center", marginTop: "5rem", padding: "2rem", height: "20rem", alignItems: "center", justifyContent: "center", 
+      display: "flex", flexDirection: "column", margin: "auto"}}>
+           <WorkIcon sx={{ fontSize: "5rem", margin: "1rem 0", color: "#FAB93C"}} />
+          <Typography fontSize="2rem" color="#333" fontWeight="bold">Experience</Typography>
+        </Box>
+        <CompaniesContainer sx={{ paadding: { lg: "10rem"}, 
+            gridTemplateColumns: { lg: "repeat(2, 1fr)", xs: "1fr", sm: "1fr", md: "1f" }, margin: { xs: "0", sm: "0", md: "0", lg: "2rem 5rem"}, justifyContent: { xs: "unset"} }}>
             {experience.map((experience) => {
                 return (
                     <Company {...experience} key={experience.id}/>

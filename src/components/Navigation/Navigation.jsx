@@ -13,11 +13,11 @@ import MenuIcon from '@mui/icons-material/Menu';
 import { Grid, styled, Stack } from '@mui/material';
 
 const NavigationTheme = styled(Grid)(({ theme }) => ({
-    background: "#fff",
+    background: "#0E141E",
     borderBottom: "1px solid #eee",
     width: "100%",
     padding: "1rem",
-    color: "#000",
+    color: "#fff",
 }));
 
 const drawerWidth = 240;
@@ -74,13 +74,13 @@ function Navigation(props) {
           <MenuIcon />
           </IconButton>
           <Grid item xs={4} sx={{ paddingTop: "1rem", flexGrow: 1, display: { xs: 'none', sm: 'none', md: 'none', lg: 'block' }}}>
-            <Link href="https://www.instagram.com/muhammed_suwaneh/" target="_blank" underline="none" sx={{ padding: "0 1rem", color: "#1D1F21"}}>
+            <Link href="https://www.instagram.com/muhammed_suwaneh/" target="_blank" underline="none" sx={{ padding: "0 1rem", color: "#fff"}}>
                 <InstagramIcon />
             </Link>
-            <Link href="https://www.linkedin.com/in/muhammed-suwaneh-694261132/" target="_blank" underline="none" sx={{ padding: "0 1rem", color: "#1D1F21"}}>
+            <Link href="https://www.linkedin.com/in/muhammed-suwaneh-694261132/" target="_blank" underline="none" sx={{ padding: "0 1rem", color: "#fff"}}>
                 <LinkedInIcon />
             </Link>
-            <Link href="https://github.com/Muhammedsuwaneh" target="_blank" underline="none" sx={{ padding: "0 1rem", color: "#1D1F21"}}>
+            <Link href="https://github.com/Muhammedsuwaneh" target="_blank" underline="none" sx={{ padding: "0 1rem", color: "#fff"}}>
                 <GitHubIcon />
             </Link>
           </Grid>
@@ -94,7 +94,7 @@ function Navigation(props) {
           <Grid item xs={4} sx={{ paddingTop: "1rem",  display: { xs: 'none', sm: 'none', md: 'none', lg: 'block' }}}>
            {navItems.map(link => {
               return (
-                <Link href={`${(link === "Home") ? "/": "#"+link.toLowerCase()}`} underline="none" key={link} sx={{ padding: "0 1rem", color: "#1D1F21"}}>
+                <Link href={`${(link === "Home") ? "/": "#"+link.toLowerCase()}`} underline="none" key={link} sx={{ padding: "0 1rem", color: "#fff"}}>
                     {link}
                 </Link>
             )   
