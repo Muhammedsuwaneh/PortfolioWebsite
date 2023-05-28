@@ -27,9 +27,11 @@ export default function About() {
                 Full stack Software Engineer, specialized in designing, developing and deploying both static and dynamic Web applications
             </Typography>
             <Typography sx={{ lineHeight: "2rem"}}>
-            I use solid contemporary  technologies such as JavaScript with it's related libraries ReactJS-NextJS and Typescript and other user interface designer and developer tools such as Material UI, 
-            Bootstrap and Figma to create static and dynamic Web applications. I write Restful APIs to be consumed by these dynamic applications using ASP.NET Core Web API, 
-            Entity Framework and Microsoft SQL Server. Got introduced to these technologies while working as an intern in various establishments.
+               I use solid contemporary technologies such as 
+               JavaScript with it's related libraries ReactJS, NextJS, Typescript and other user interface designer 
+               and developer tools such as Material UI, Bootstrap and Figma to create static and dynamic web applications. 
+               I write Restful APIs to be consumed by these dynamic applications using ASP.NET Core Web API, 
+               Entity Framework and Microsoft SQL Server. 
             </Typography>
         </Grid>
     </AboutContainer>
